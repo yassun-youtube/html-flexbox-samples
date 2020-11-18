@@ -1,0 +1,44 @@
+html,body,p {
+    margin: 0;
+    padding: 0;
+}
+.title {
+    margin: 10px;
+}
+.sub-title {
+    margin: 20px 10px 10px;
+    border-bottom: 1px solid #616161;
+}
+.red {
+    background-color: #FFCDD2;
+}
+.blue {
+    background-color: #BBDEFB;
+}
+.green {
+    background-color: #C8E6C9;
+}
+.purple {
+    background-color: #E1BEE7;
+}
+.brown {
+    background-color: #D7CCC8;
+}
+.container {
+    display: flex;
+    background-color: #EEEEEE;
+}
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    padding: 12px;
+}
+.rectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 12px;
+}

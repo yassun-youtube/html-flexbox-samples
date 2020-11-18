@@ -1,0 +1,24 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h2 class="title" style="text-align: center;">中心の要素とそのすぐ左隣の要素</h2>
+    <div style="display: flex; width: 100%; height: 40px;">
+        <div class="blue" style="width: 50%"></div>
+        <div class="purple" style="width: 50%"></div>
+    </div>
+    <div style="display: flex;">
+        <div style="flex-grow: 1; width: 100%; display: flex; justify-content: flex-end;">
+            <p class="red square">中心すぐ左</p>
+        </div>
+        <div class="green square" style="flex-grow: 0; width: 150px;">中心</div>
+        <div style="flex-grow: 1; width: 100%;"></div>
+    </div>
+    <div style="display: flex; width: 100%; height: 40px;">
+        <div class="blue" style="width: 50%"></div>
+        <div class="purple" style="width: 50%"></div>
+    </div>
+</body>
+</html>
